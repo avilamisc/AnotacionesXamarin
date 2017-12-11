@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "key": "d7be55bd611e33155a80",
+      "color": "#E10051",
+      "name": "Planeación"
+    },
+    {
+      "key": "dae9f194803db0ce111d",
+      "color": "#30D5C8",
+      "name": "Teoría"
+    },
+    {
+      "key": "c57f1f33b81bbdc33991",
+      "color": "#3FD941",
+      "name": "Conceptos (tips)"
+    }
+  ],
+  "version": "1.0"
+}

@@ -1,0 +1,26 @@
+type: "MARKDOWN_NOTE"
+folder: "d7be55bd611e33155a80"
+title: "Documentación que he encontrado"
+content: '''
+  # Documentación que he encontrado
+  
+  A continuación, te presento la documentación para empezar a desarrollar aplicacines para las distintas plataformas: [Introducción al desarrollo móvil](https://developer.xamarin.com/es-es/guides/cross-platform/Getting_Started/Introduction_to_Mobile_Development/) y [Xamarin.Forms](https://developer.xamarin.com/guides/xamarin-forms/getting-started/introduction-to-xamarin-forms/)
+  
+  Si quieres ver cosas más específicas puedes irte a la documentación que deseees para comenzar con una plataforma en particular. Escoje la que desees:
+  
+  ## <span style="color: #c4c4c4;">Android</span>
+  
+  [Instrucciones de diseño (documentación oficial, de Google)](https://developer.android.com/design/index.html)
+  [Hello World en Android con Xamarin](https://developer.xamarin.com/es-es/guides/android/getting_started/hello,android/hello,android_quickstart/)
+  
+  ## <span style="color: #c4c4c4;">iOS</span>
+  
+  [Human Interface Guidelines (documentación oficial, de Apple)](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+  [Hello World en iPhone con Xamarin](https://developer.xamarin.com/es-es/guides/ios/getting_started/hello%2c_world)
+  
+'''
+tags: []
+isStarred: false
+isTrashed: true
+createdAt: "2017-12-10T14:59:53.703Z"
+updatedAt: "2017-12-10T15:25:37.835Z"

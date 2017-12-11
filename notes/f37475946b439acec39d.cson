@@ -1,0 +1,30 @@
+type: "MARKDOWN_NOTE"
+folder: "c57f1f33b81bbdc33991"
+title: "XML"
+content: '''
+  # XML
+  
+  e**X**tensible **A**pplication **M**arkup **L**anguage, Lenguaje Extensible de Formato para Aplicaciones en español. Es un lenguaje usado para definir *elementos* de una manera sencilla, usando XML.
+  
+  ## <span style="color: #c4c4c4">Sintaxis</span>
+  
+  Hablando en términos de POO, se podría decir que XML crea *objetos*. En la jerga de XML a los objetos se le llamana *elementos*; estos a su vez pueden tener distintas propiedades. Los elementos creados con XML pueden ser luego manipulados como objetos desde el lenguaje de programación. Existen tres formas para declarar objetos con XML: Mediante la *sintaxis de objetos* o indirectamente, mediante la *sintaxis de atributo* y la *sintaxis de colección*.
+  
+  - Sintaxis de objeto <br/><br/>
+    - Objetos solos: <br/> <br/>
+      
+      <code>&lt;Canvas&gt;&lt;/Canvas&gt;</code> <br/><br/>
+      
+    - Objetos anidados <br/><br/>
+      
+      <code>
+        &lt;Canvas&gt;<br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;&lt;Rectangle/&gt;<br/>
+        &lt;/Canvas&gt;
+      </code>
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-10T02:01:03.269Z"
+updatedAt: "2017-12-11T01:08:27.468Z"

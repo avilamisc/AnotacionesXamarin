@@ -1,0 +1,47 @@
+type: "MARKDOWN_NOTE"
+folder: "d7be55bd611e33155a80"
+title: "Proyecto Xamarin"
+content: '''
+  # Proyecto Xamarin
+  
+  El proyecto Xamarin son las cosas indicadas por Daniel que debo aprender para la pasantía. Aquí lo que voy a hacer es indicarte lo que se me ha indicado hacer. En la nota llamada "Documentación" indico la documentación que debes leer paso a paso para cada plataforma o para desarrollo móvil de manera general (multiplataforma).
+  <style>
+    .timido {
+      color: #acacac;
+    }
+  </style>
+  ### <span class="timido">¿Qué hay que hacer?</span>
+  - Completar el curso de [Xamarin Forms](https://app.pluralsight.com/library/courses/mobile-application-xamarin-forms-visual-studio-2017/description) de Pluralsight.
+  - Ver este [otro](https://app.pluralsight.com/library/courses/mobile-application-xamarin-forms-visual-studio-2017/table-of-contents) curso de pluralsight(más actualizado sobre Xamarin.Forms): 
+  - Leer el libro *Sketching user Experiences*.
+  
+  ### <span class="timido">Documentación</span>
+  
+  - Desarrollo multi-plataforma: <br/> <br/>
+      - [Introducción a Xamarin Forms (Daniel)](https://app.pluralsight.com/library/courses/xamarin-forms-introduction/table-of-contents)
+      - [Patrón de diseño MVVM (Daniel)](https://app.pluralsight.com/library/courses/mvvm-based-architecture-xamarin-mobile-apps/table-of-contents)
+      - [Introducción al desarrollo móvil (lectura)](https://developer.xamarin.com/es-es/guides/cross-platform/Getting_Started/Introduction_to_Mobile_Development/)
+      - [Sobre Xamarin.Forms (lectura)](https://developer.xamarin.com/guides/xamarin-forms/getting-started/introduction-to-xamarin-forms/)
+      - [Primera aplicación con Xamarin Forms (2017)](https://app.pluralsight.com/library/courses/mobile-application-xamarin-forms-visual-studio-2017/description).
+      - Aprender XAML en [este](https://app.pluralsight.com/library/courses/xaml-for-xamarin-forms/table-of-contents) curso de Pluralsight. Puedes encontrar documentación oficial en la [documentación oficial (lectura)](https://docs.microsoft.com/en-us/windows/uwp/xaml-platform/xaml-syntax-guide). <br/><br/>
+  
+  - Android <br/><br/>
+      - [Instrucciones de diseño (documentación oficial, de Google)](https://developer.android.com/design/index.html)
+      - [Hello World en Android con Xamarin](https://developer.xamarin.com/es-es/guides/android/getting_started/hello,android/hello,android_quickstart/) <br/><br/>
+  
+  - iOS <br/><br/>
+    - [Human Interface Guidelines (documentación oficial, de Apple)](https://developer.apple.com/ios/human-interface-guidelines/overview/themes/)
+    - [Hello World en iPhone con Xamarin](https://developer.xamarin.com/es-es/guides/ios/getting_started/hello%2c_world)<br/><br/>
+  
+  
+  ### <span class="timido">Consideraciones</span>
+  - Debes ver aunque sea 7 módulos de cada curso para este lunes.
+  - Debes explicarle a Sergio lo que has aprendido del *libro* que aún no has leído.
+'''
+tags: [
+  "Planeación"
+]
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-09T19:35:57.541Z"
+updatedAt: "2017-12-11T18:05:05.864Z"

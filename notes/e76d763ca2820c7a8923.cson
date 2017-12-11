@@ -1,0 +1,57 @@
+type: "SNIPPET_NOTE"
+folder: "dae9f194803db0ce111d"
+title: "Frontend structure"
+description: "Frontend structure"
+snippets: [
+  {
+    name: "Estructura básica.md"
+    mode: "Markdown"
+    content: '''
+      # Estructura
+      <style>
+        .timido {
+          color: #c4c4c4;
+        }
+        
+        .resaltado {
+          color: #24A4F1;
+          font-weight: bold;
+        }
+      </style>
+      ## <span class="timido">App</span>
+      
+      App es la entidad que se encarga de inicializar (indicar por dónde debe comenzar) tu aplicación. Para lograr su cometido hace uso de dos archivos:
+      
+      - <span class="resaltado">App.xml</span> esta se encarga de indicar el diccionario de recursos
+      - <span class="resaltado">App.xml.cs</span> se encarga de gestionar los recursos indicados en App.xml y de también cargar el primer frame o pantalla de la aplicación.
+      
+      ## <span class="timido">Views</span>
+      
+      Es el directorio que se encarga de contener todas las vistas. Normalmente existe una estructura de vista por defecto compuesta por dos archivos:
+      
+      - <span class="resaltado">MainPage.xaml</span> Tiene el diseño de la *actividad* principal.
+      - <span class="resaltado">MainPage.xaml.cs</span> Gestiona la lógica de la actividad principal.
+    '''
+  }
+  {
+    name: "MainPage.xml"
+    mode: "XML"
+    content: '''
+      <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   xmlns:local="clr-namespace:XamlSamples"
+                   x:Class="XamlSamples.MainPage">
+      
+          <Label Text="Welcome to Xamarin Forms!" 
+                 VerticalOptions="Center" 
+                 HorizontalOptions="Center" />
+      
+      </ContentPage>
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-11T01:09:16.589Z"
+updatedAt: "2017-12-11T19:00:55.115Z"

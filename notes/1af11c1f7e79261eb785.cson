@@ -1,0 +1,101 @@
+type: "SNIPPET_NOTE"
+folder: "dae9f194803db0ce111d"
+title: "Layauts, Views y Data. Aquí te muestor y defino los distintos layouts y algunos elementos gráficos que puedes usar en las vistas."
+description: "Layauts, Views y Data. Aquí te muestor y defino los distintos layouts y algunos elementos gráficos que puedes usar en las vistas."
+snippets: [
+  {
+    name: "Layouts y Views.md"
+    mode: "Markdown"
+    content: '''
+      # Layauts, Views and Data
+      <style>
+        .apagado {
+          color: #c4c4c4;
+        }
+        
+        .anotacion {
+          border: 1px solid #c4c4c4;
+          width: 80%;
+          padding: 10px;
+          color: #c4c4c4;
+        }
+        
+      </style>
+      
+      <br/>
+      <div class="anotacion">Hay ejemplos para cada Layout que probé</div> 
+      
+      ## <span class="apagado">Layouts</span>
+      
+      - Content Presenter: Se usa para mostrar un solo objeto de contenido.
+      - ContentView. Es un layout usado para mostrar un solo contenido.
+      - ScrollView. Es un elemento que permite desplazarse si su contenido lo requiere.
+      - Frame. Es un elemento que tiene un solo hijo.
+      - TemplatedView. Tiene un padding prderterminado de "20".
+      - StackLayout. Coloca los elementos por filas.
+      - AbsoluteLayout. Coloca los elementos hijos en los lugares especificados.
+      - RelativeLayout. Es aquel que tiene restricciones para colocar sus elementos hijos
+      - GridLayout. Es un diseño que contiene vistas dispuestas en filas y columnas.
+      
+      <img src="C:\\Users\\MikhaelSantosFernand\\Documents\\MisDocumentos\\Programing_and_Design\\Xamarin\\Documentación\\Images\\LayoutsXamarin.jpg" style="width:500px;"/>
+      
+      
+       
+      ## <span class="apagado">Views</span>
+      
+      - Activity Indicator.
+      - BoxView.
+      - Button.
+      - Data Picker.
+      - Editor
+      - Entry.
+      - Search Bar.
+      - Slider. 
+      - Stepper.
+      - Switch.
+      - Table View.
+      - Web View.
+    '''
+  }
+  {
+    name: "StackLayout.xaml"
+    mode: "XML"
+    content: '''
+      <StackLayout Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+      
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+      
+            <Label 
+                Text="Superior Izquierda"
+                Grid.Row="0"
+                Grid.Column="0"/>
+            <Label 
+                Text="Inferior Izquierda"
+                Grid.Row="0"
+                Grid.Column="1"/>
+            <Label 
+                Text="Superior Derecha"
+                Grid.Row="1"
+                Grid.Column="0"/>
+            <Label 
+                Text="Superior Derecha"
+                Grid.Row="1"
+                Grid.Column="1"/>
+        </Grid>
+      </StackLayout>
+    '''
+  }
+]
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-11T14:57:44.512Z"
+updatedAt: "2017-12-11T20:23:57.527Z"

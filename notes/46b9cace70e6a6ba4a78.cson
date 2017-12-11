@@ -1,0 +1,16 @@
+type: "MARKDOWN_NOTE"
+folder: "c57f1f33b81bbdc33991"
+title: "¿Cómo hacer un proyecto en Xamarin Forms?"
+content: '''
+  # ¿Cómo hacer un proyecto en Xamarin Forms?
+  
+  1. Abre Visual Studio.
+  2. Escoje una plantilla.
+  3. Examinar el programa.
+  4. Configurar la estructura de tu proyecto en MVVM.
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-09T23:49:32.950Z"
+updatedAt: "2017-12-11T01:08:19.024Z"

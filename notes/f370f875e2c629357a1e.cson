@@ -1,0 +1,39 @@
+type: "MARKDOWN_NOTE"
+folder: "dae9f194803db0ce111d"
+title: "Introducción"
+content: '''
+  <style>
+    .timido {
+      color: #c4c4c4;
+    }
+  </style>
+  
+  # Introducción
+  
+  ## <span class="timido">¿Qué es Xamarin.Forms?</span>
+  Xamarin es la solución para crear aplicaciones multiplataformas con C#. Para que tengas las cosas claras, esto es lo que haces con Xamarin:
+  
+  - Creas Apps nativas.
+  - Escribes tu código en C#.
+  - Si haces la interfaz de usuario (UI) con XAML, casi el 100% del código usado para la interfaz de usuario se puede usar para cada plataforma en la que hayas programado.
+  
+  ## <span class="timido">¿Qué necesitas saber?</span>
+  
+  - Todas las aplicaciones serán en Android y en iOS.
+  - Podremos usar Windows o Mac para programarlas
+  - Aprender C#.
+  - Aprender sobre XAML.
+  
+  ## <span class="timido">¿Qué uso para programar en Android?</span>
+  
+  Las aplicaciones Xamarin de Andrpoid hacen uso de las clases de las siguientes tres librerias:
+  
+  - Java *. Xamarin Provee una serie de *wrappers* para todas las librerías de Java.
+  - Android *. Xamarin también provee una serie de *wrappers* para todas las APIs de Android.
+  - Mono .NET. Xamarin provee la mayor parte de esta libería
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-09T21:53:07.820Z"
+updatedAt: "2017-12-10T01:45:35.226Z"

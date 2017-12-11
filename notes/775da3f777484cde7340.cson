@@ -1,0 +1,34 @@
+type: "MARKDOWN_NOTE"
+folder: "dae9f194803db0ce111d"
+title: "Estructura"
+content: '''
+  # Estructura
+  <style>
+    .timido {
+      color: #c4c4c4;
+    }
+    
+    .resaltado {
+      color: #24A4F1;
+      font-weight: bold;
+    }
+  </style>
+  ## <span class="timido">App</span>
+  
+  App es la entidad que se encarga de inicializar (indicar por dónde debe comenzar) tu aplicación. Para lograr su cometido hace uso de dos archivos:
+  
+  - <span class="resaltado">App.xml</span> esta se encarga de indicar el diccionario de recursos
+  - <span class="resaltado">App.xml.cs</span> se encarga de gestionar los recursos indicados en App.xml y de también cargar el primer frame o pantalla de la aplicación.
+  
+  ## <span class="timido">Views</span>
+  
+  Es el directorio que se encarga de contener todas las vistas. Normalmente existe una estructura de vista por defecto compuesta por dos archivos:
+  
+  - <span class="resaltado">MainPage.xaml</span> Tiene el diseño de la *actividad* principal.
+  - <span class="resaltado">MainPage.xaml.cs</span> Gestiona la lógica de la actividad principal.
+'''
+tags: []
+isStarred: false
+isTrashed: true
+createdAt: "2017-12-11T01:08:03.967Z"
+updatedAt: "2017-12-11T01:10:17.601Z"

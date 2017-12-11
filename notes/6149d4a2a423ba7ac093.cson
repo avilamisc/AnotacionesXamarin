@@ -1,0 +1,33 @@
+type: "MARKDOWN_NOTE"
+folder: "c57f1f33b81bbdc33991"
+title: "Patrón MVVM"
+content: '''
+  <style>
+    .timido {
+      color: #c4c4c4;
+    }
+  </style>
+  
+  # Patrón MVVM
+  
+  *Model View View Model*, mejor conocido como *MVVM*, es un patrón de diseño usado para *contener los datos y comandos que no sabe de donde vienen los datos (aspecto del que se encargará el modelo) y cómo estos serán mostrados (aspecto del que se encargará la vista)*
+  
+  ## <span class="timido">¿Qué hace cada uno?</span>
+  
+  - Model: Es el que tiene los datos y los gestiona.
+  - View: Es la que se encarga de mostrar los datos.
+  - View Model: Tiene los distintos *objetos* o *modelos* que usa la vista.
+  
+  ## <span class="timido">¿Cómo implementarlo?</span>
+  
+  Luego de haber creado tu proyecto en Xamarin Forms con la estructura de carpetas que te genera Visual Studio, debes realizar lo siguiente:
+  
+  - <code>$ mkdir Model View ViewModel.</code>
+  - Entra los ficheros de nombre *MainPage.xaml* y *MainPage.xaml.cs* al directorio llamado View. Ahí es donde deben estar.
+  
+'''
+tags: []
+isStarred: false
+isTrashed: false
+createdAt: "2017-12-09T23:54:15.885Z"
+updatedAt: "2017-12-11T01:08:16.039Z"
